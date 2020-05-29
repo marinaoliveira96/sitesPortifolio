@@ -55,6 +55,9 @@ button:hover {
     background-color: #131c27;
     /* background-color: #343c44; */
     color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
 }
 nav {
     min-height: 10vh;
@@ -100,7 +103,7 @@ nav ul {
 #locations {
     min-height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
-        url('img/sp-bg.png');
+        url('./img/sp-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -200,7 +203,7 @@ nav ul {
 #contact {
     min-height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
-        url(/img/av-paulista.jfif);
+        url('./img/av-paulista.jfif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
